@@ -12,10 +12,3 @@ class Transaction:
 
     def __repr__(self):
         return f"{self.date} | {self.description} | {self.category} | {self.amount:.2f}"
-
-# amount = float(input("Enter transaction amount: "))
-# category = input("Enter transaction category (income/expense): ").strip().lower()
-# description = input("Enter transaction description: ").strip().title()
-
-# transaction = Transaction(amount, category, description)
-# print(transaction)
